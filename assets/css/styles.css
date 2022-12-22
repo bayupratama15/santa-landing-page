@@ -181,6 +181,11 @@ body.dark-theme {
   margin-bottom: var(--mb-2-5);
   text-align: center;
 }
+.section__subtitle{
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-2-5);
+  text-align: center;
+}
 
 /*=============== HEADER ===============*/
 .header {
@@ -512,6 +517,10 @@ svg {
 }
 
 /*=============== TEAM ===============*/
+.team-bg{
+  background: #e9e5fa;
+  padding: 60px 0;
+}
 .wrapper{
   margin-top: 60px;
   text-align: center;
@@ -536,6 +545,7 @@ svg {
   margin: 5px;
   background: #fff;
   padding: 20px 10px;
+  border-radius: 11px;
 }
 
 .our_team .team_member .member_img{

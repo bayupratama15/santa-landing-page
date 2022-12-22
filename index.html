@@ -41,6 +41,12 @@
                         <a href="#roadmap" class="nav__link">Roadmap</a>
                     </li>
                     <li class="nav__item">
+                        <a href="#team" class="nav__link">Team</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#tokendetail" class="nav__link">Token Detail</a>
+                    </li>
+                    <li class="nav__item">
                         <a href="https://t.me/santamessitoken" target="_blank" class="nav__link">Telegram</a>
                     </li>
                     <!-- <li class="nav__item">
@@ -120,7 +126,7 @@
                     <h1 class="home__title">SantaMessi</h1>
                     <p class="home__description">
                         Messi will give a special gift to his fans this Christmas. He will always be a legend and the
-                        greatest of all time. We always remember him as Santa Messi, the gifter of 2022 Chistmas.
+                        greatest of all time. We always remember him as Santa Messi, the gifter of 2022 Chistmas
                     </p>
                     <a href="#" class="button-home">Get Started</a>
                 </div>
@@ -132,36 +138,59 @@
             <h2 class="section__title">
                 Why <br> Santa Messi
             </h2>
+            <!-- section__subtitle -->
+            <p class="section__subtitle">
+                Santa Messi is fully decentralized and 100% owned by community. Dev does not owned the token.
+            </p>
 
             <div class="giving__container grid">
                 <div class="giving__content">
                     <img src="assets/img/giving1.png" alt="" class="giving__img">
-                    <h3 class="giving__title">BUSD Rewards</h3>
-                    <p class="giving__description">Each holder will get a BUSD reward from every 5% buying and selling
-                        transaction.</p>
+                    <h3 class="giving__title">Rewards<br> 3%</h3>
+                    <p class="giving__description">
+                        3% of each transaction will be distributed to all holders.
+                    </p>
                 </div>
 
                 <div class="giving__content">
                     <img src="assets/img/giving2.png" alt="" class="giving__img">
-                    <h3 class="giving__title">Strong community</h3>
-                    <p class="giving__description">Santa Messi is a true token applying the principle of holder is
-                        winner. Hold and get rewarded from buying and selling transactions.</p>
+                    <h3 class="giving__title">Auto Add Liquidity 1%</h3>
+                    <p class="giving__description">
+                        1% of each transaction will be added to the liquidity pool.
+                    </p>
                 </div>
 
                 <div class="giving__content">
                     <img src="assets/img/giving3.png" alt="" class="giving__img">
-                    <h3 class="giving__title">Burned</h3>
-                    <p class="giving__description">Tokens will be burned 2% of each transaction.</p>
+                    <h3 class="giving__title">Dev and Team fee 1%</h3>
+                    <p class="giving__description">
+                        1% of each transaction will be used to pay the dev and team fee.
+                    </p>
                 </div>
             </div>
         </section>
 
         <!--==================== CELEBRATE ====================-->
         <section class="celebrate section container" id="about">
-            <div class="celebrate__container grid">
+            <div class="messi-bg1" style=" /* Add the blur effect */
+            filter: blur(15px);
+            -webkit-filter: blur(8px);
+          
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            position: absolute;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;">
+                <!-- img background blur -->
+                <img src="assets/img/messi.png" alt="">
+
+            </div>
+            <div class="celebrate__container grid" style="position: relative;">
                 <div class="celebrate__data">
                     <h2 class="section__title celebrate__title">
-                        About SantaMessi
+                        About $SantaMessi
                     </h2>
                     <p class="celebrate__description">
                         Santa Messi is a BSC-token based of Messi's fans to celebrate the victory of the world cup and
@@ -170,10 +199,9 @@
 
                     </p>
                     <p class="celebrate__description">
-                        $Santa Messi is a special gift for Messi fans with a burn system and high rewards. Each holder
-                        will get a BUSD reward from every 5% buying and selling transaction. Tokens will be burned 2% of
-                        each transaction. The Santa token previously reached millions of Mcap and reached 300x and now
-                        we will repeat it again to celebrate Christmas.
+                        $Santa Messi is a special gift for Messi fans with high rewards system. Each holder will get a
+                        BUSD reward from every 3% buying and selling transaction. The Santa token previously reached
+                        millions of Mcap and reached 300x and now we will repeat it again to celebrate Christmas.
                     </p>
                     <!-- <a href="#" class="button">Send Good Wishes</a> -->
                 </div>
@@ -230,7 +258,7 @@
         </section> -->
 
         <!--==================== NEW ====================-->
-        <section class="new section container" id="roadmap">
+        <section class="new section container" id="roadmap" style="position: relative;">
             <h2 class="section__title">Roadmap</h2>
 
             <div class="new__container">
@@ -300,10 +328,11 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
+
         </section>
 
         <!-- TEAM -->
-        <div class="wrapper">
+        <section class="wrapper team-bg" id="team">
             <h2 class="section__title">Our Team</h2>
             <div class="our_team">
                 <div class="team_member">
@@ -352,149 +381,156 @@
                         voluptatibus cumque.</p>
                 </div>
             </div>
+        </section>
 
-            <!--==================== MESSAGE ====================-->
-            <section class="message section container">
-                <div class="message__container grid">
-                    <form action="" class="message__form">
-                        <h2 class="message__title">Token Detail</h2>
-                        <!-- <input type="email" placeholder="Write your message" class="message__input">
+        <!--==================== MESSAGE ====================-->
+        <section class="message section container" id="tokendetail">
+            <div class="message__container grid">
+                <form action="" class="message__form">
+                    <h2 class="message__title">Token Detail</h2>
+                    <!-- <input type="email" placeholder="Write your message" class="message__input">
                     <button class="button message__button">Send Message</button> -->
-                        <!-- table display border none -->
-                        <table class="table table-borderless">
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px" class="message__title ">Token Name</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px" class="message__title">:</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px" class="message__title "> Santa Messi</h6>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">Ticker</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px" class="message__title">:</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">$Messi</h6>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">Total Supply
-                                        </h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px" class="message__title">:</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">10.000.000.000
-                                        </h6>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">Tax</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px" class="message__title">:</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">10% Buy And 10%
-                                            Sell
-                                        </h6>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">Decimal</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px" class="message__title">:</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">9</h6>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">Reward</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px" class="message__title">:</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">5%</h6>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">Burn</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px" class="message__title">:</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">2%</h6>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">Dev</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px" class="message__title">:</h6>
-                                    </td>
-                                    <td>
-                                        <h6 style="font-size:15px;padding:3px"" class=" message__title">3%</h6>
-                                    </td>
-                                </tr>
+                    <!-- table display border none -->
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px" class="message__title ">Token Name</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px" class="message__title">:</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px" class="message__title "> Santa Messi</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">Ticker</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px" class="message__title">:</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">$Messi</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">Total Supply
+                                    </h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px" class="message__title">:</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">10.000.000.000
+                                    </h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">Tax</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px" class="message__title">:</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">10% Buy And 10%
+                                        Sell
+                                    </h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">Decimal</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px" class="message__title">:</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">9</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">Reward</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px" class="message__title">:</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">5%</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">Burn</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px" class="message__title">:</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">2%</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">Dev</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px" class="message__title">:</h6>
+                                </td>
+                                <td>
+                                    <h6 style="font-size:15px;padding:3px"" class=" message__title">3%</h6>
+                                </td>
+                            </tr>
 
 
-                            </tbody>
-                        </table>
+                        </tbody>
+                    </table>
 
-                    </form>
+                </form>
 
-                    <img src="assets/img/Pie.png" alt="" style="width: 550px;" class="message__img">
-                </div>
-            </section>
+                <img src="assets/img/Pie.png" alt="" style="width: 550px;" class="message__img">
+            </div>
+        </section>
     </main>
 
     <!--==================== FOOTER ====================-->
     <footer class="footer section">
         <div class="footer__container container grid">
             <div>
-                <!-- <a href="#" class="footer__logo">
-                    <img src="assets/img/logo.png" alt="" class="footer__logo-img">
-                    Christmas
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/santamessi.jpg" alt="" class="footer__logo-img">
+                    SantaMessi
                 </a>
 
-                <p class="footer__description">
-                    This Christmas give <br> a lot of love
-                </p> -->
+                <p class="footer__description" style="padding: 2px;">
+                    Santa Messi is a true token applying <br>
+                    the principle of holder is winner.<br>
+                    Hold and get reward from<br>
+                    buying and selling transaction
+                </p>
             </div>
 
             <div>
-                <!-- <h3 class="footer__title">Our Services</h3> -->
+                <h3 class="footer__title">Links</h3>
 
-                <!-- <ul class="footer__links">
+                <ul class="footer__links">
                     <li>
-                        <a href="#" class="footer__link">Pricing</a>
+                        <a href="#" class="footer__link">Pinksale Fairlaunch</a>
                     </li>
                     <li>
-                        <a href="#" class="footer__link">Discounts</a>
+                        <a href="#" class="footer__link">Smart Contract </a>
                     </li>
                     <li>
-                        <a href="#" class="footer__link">Shipping mode</a>
+                        <a href="#" class="footer__link">Chart poocoin</a>
                     </li>
-                </ul> -->
+                    <li>
+                        <a href="#" class="footer__link">Audit</a>
+                    </li>
+                </ul>
             </div>
 
             <div>

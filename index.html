@@ -20,7 +20,10 @@
     <title>SantaMessi-Crypto</title>
 </head>
 
-<body oncontextmenu="return false">
+<!-- <body oncontextmenu="return false"> -->
+
+<body>
+
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -131,10 +134,19 @@
                     <a href="#" class="button-home">Get Started</a>
                 </div>
             </div>
+
+
+            <div class="messi-bg2">
+                <img src="assets/img/messi2.png" alt="">
+
+            </div>
+
+
         </section>
 
         <!--==================== GIVING ====================-->
-        <section class="giving section container">
+        <section class="giving section container" style="position: relative;">
+
             <h2 class="section__title">
                 Why <br> Santa Messi
             </h2>
@@ -172,17 +184,7 @@
 
         <!--==================== CELEBRATE ====================-->
         <section class="celebrate section container" id="about">
-            <div class="messi-bg1" style=" /* Add the blur effect */
-            filter: blur(15px);
-            -webkit-filter: blur(8px);
-          
-            /* Full height */
-            height: 100%;
-            /* Center and scale the image nicely */
-            position: absolute;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;">
+            <div class="messi-bg1">
                 <!-- img background blur -->
                 <img src="assets/img/messi.png" alt="">
 
@@ -584,21 +586,21 @@
 </html>
 
 <script>
-    document.onkeydown = function (e) {
-        if (event.keyCode == 123) {
-            return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-            return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-            return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-            return false;
-        }
-        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-            return false;
-        }
-    }
+    // document.onkeydown = function (e) {
+    //     if (event.keyCode == 123) {
+    //         return false;
+    //     }
+    //     if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+    //         return false;
+    //     }
+    //     if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+    //         return false;
+    //     }
+    //     if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+    //         return false;
+    //     }
+    //     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+    //         return false;
+    //     }
+    // }
 </script>

@@ -381,6 +381,7 @@ svg {
   color: #fff;
   padding: 10px 15px;
   font-weight: var(--font-medium);
+  border-radius: 3rem;
   transition: .3s;
 }
 
@@ -856,8 +857,14 @@ svg {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
-
 }
+@media (max-width:480px)  {
+  .button-home3{
+    inline-size: 150px;
+    overflow-wrap: break-word;
+  }
+
+ }
 
 @media screen and (min-width: 767px) {
   body {

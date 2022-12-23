@@ -496,6 +496,7 @@ svg {
   text-align: center;
   margin-bottom: 4rem;
   overflow: hidden;
+  height: 400px;
 }
 
 .new__overlay {

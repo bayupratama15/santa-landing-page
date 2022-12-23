@@ -867,6 +867,9 @@ svg {
   .section__subtitle{
     color: #000;
   }
+  .giving__container {
+    grid-template-columns: auto;
+  }
 
  }
 

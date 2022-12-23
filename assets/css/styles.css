@@ -433,6 +433,7 @@ svg {
 
 .celebrate__description {
   margin-bottom: var(--mb-2-5);
+  color: #000;
 }
 
 .celebrate__img {

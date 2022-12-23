@@ -20,15 +20,15 @@
     <title>SantaMessi-Crypto</title>
 </head>
 
-<!-- <body oncontextmenu="return false"> -->
+<body oncontextmenu="return false">
 
-<body>
+    <!-- <body> -->
 
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
-                <img src="assets/img/headersantamessi.jpg" alt="" class="nav__logo-img">
+                <img src="assets/img/headersantamessi.png" alt="" class="nav__logo-img">
                 SantaMessi
             </a>
 
@@ -50,7 +50,18 @@
                         <a href="#tokendetail" class="nav__link">Token Detail</a>
                     </li>
                     <li class="nav__item">
-                        <a href="https://t.me/santamessitoken" target="_blank" class="nav__link">Telegram</a>
+                        <!-- telegram -->
+                        <a href="https://t.me/santamessitoken" target="_blank" class="nav__link">
+                            <img src="assets/img/telegram.png" alt="" class="nav__logo-img-icon">
+                        </a>
+
+
+                    </li>
+                    <li class="nav__item">
+                        <!-- twiiter -->
+                        <a href="https://twitter.com/santamessitoken" target="_blank" class="nav__link">
+                            <img src="assets/img/twitter.png" alt="" class="nav__logo-img-icon">
+                        </a>
                     </li>
                     <!-- <li class="nav__item">
                         <a href="#new" class="nav__link">New</a>
@@ -158,13 +169,31 @@
                 <strong> Santa Messi is fully decentralized and 100% owned by community. Dev does not owned the
                     token.</strong>
             </p>
-            <p class="section__subtitle">
-                <strong>High score audit,
-                    Safe smart contract,
-                    Renounce ownership after live on pancakeswap</strong>
-            </p>
 
             <div class="giving__container grid">
+                <div class="giving__content">
+                    <img src="assets/img/trophy.png" alt="" class="giving__img">
+                    <h3 class="giving__title">High<br>Score Audit</h3>
+                    <p class="giving__description">
+                        We will release the audit report
+                        after the launch.
+                    </p>
+                </div>
+                <div class="giving__content">
+                    <img src="assets/img/shield.png" alt="" class="giving__img">
+                    <h3 class="giving__title">Safe<br>Smart Contract</h3>
+                    <p class="giving__description">
+                        Our smart contract is 100% safe and secure.
+                    </p>
+                </div>
+                <div class="giving__content">
+                    <img src="assets/img/spin.png" alt="" class="giving__img">
+                    <h3 class="giving__title">Renounce<br> Ownership</h3>
+                    <p class="giving__description">
+                        We will renounce ownership after live on pancakeswap.
+                    </p>
+                </div>
+
                 <div class="giving__content">
                     <img src="assets/img/giving1.png" alt="" class="giving__img">
                     <h3 class="giving__title">Rewards<br> 3%</h3>
@@ -595,21 +624,21 @@
 </html>
 
 <script>
-    // document.onkeydown = function (e) {
-    //     if (event.keyCode == 123) {
-    //         return false;
-    //     }
-    //     if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-    //         return false;
-    //     }
-    //     if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-    //         return false;
-    //     }
-    //     if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-    //         return false;
-    //     }
-    //     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-    //         return false;
-    //     }
-    // }
+    document.onkeydown = function (e) {
+        if (event.keyCode == 123) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false;
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false;
+        }
+    }
 </script>

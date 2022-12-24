@@ -176,7 +176,13 @@ body.dark-theme {
 .section {
   padding: 4.5rem 0 1rem;
 }
-
+.embed-container{
+  /* center  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* space */
+}
 .section__title {
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2-5);

@@ -140,8 +140,12 @@
                         Messi will give a special gift to his fans this Christmas. He will always be a legend and the
                         greatest of all time. We always remember him as Santa Messi, the gifter of 2022 Christmas
                     </p>
-                    <button href="#" class="button-home">Join Fairlaunch</button>
-                    <button href="#" class="button-home2">Audit</button><br>
+                    <a target="_blank"
+                        href="https://www.pinksale.finance/launchpad/0x33041B8aC78a5B842814A6a2badB499cC190D313?chain=BSC"
+                        class="button-home">Join Fairlaunch</a>
+                    <a target="_blank"
+                        href="https://github.com/freshcoins/Smart-Contract-Audits/blob/main/SantaMessi_0x1909a1F6BB845f74CB110a798990567209dBFD1A.pdf"
+                        class="button-home2">Audit</a><br>
                     <span class="button-home3">CA : 0x1909a1F6BB845f74CB110a798990567209dBFD1A</span>
 
                 </div>
@@ -499,6 +503,40 @@
                 <img src="assets/img/Pie.png" alt="" style="width: 550px;" class="message__img">
             </div>
         </section>
+
+        <!-- partner -->
+        <section class="partner section container" id="partner">
+            <div class="partner__container grid">
+                <div class="partner__content">
+                    <h2 class="partner__title">Partners</h2>
+                    <!-- <p class="partner__description">We are proud to be partnered with the following companies.</p> -->
+                </div>
+
+                <div class="wrapper-2">
+                    <button class="prev" type="button" onclick="prevSlide(this)">➤</button>
+                    <div class="slider">
+                        <div class="item">
+                            <!-- url -->
+                            <a href="https://www.pinksale.finance/launchpad/0x33041B8aC78a5B842814A6a2badB499cC190D313?chain=BSC"
+                                target="_blank">
+                                <img src="./assets/img/pinksale.png" />
+                            </a>
+                            <div class="title">Pinksale</div>
+                        </div>
+
+                        <div class="item">
+                            <a href="https://www.dexview.com/bsc/0x1909a1F6BB845f74CB110a798990567209dBFD1A"
+                                target="_blank">
+                                <img src="./assets/img/dexview.png" />
+                            </a>
+                            <div class="title">Dexview</div>
+                        </div>
+
+                    </div>
+                    <button class="next" type="button" onclick="nextSlide(this)">➤</button>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--==================== FOOTER ====================-->
@@ -534,7 +572,12 @@
                     <li>
                         <a href="#" class="footer__link">Audit</a>
                     </li>
+                    <li>
+                        <!-- mail -->
+                        <a href="mailto:admin@santamessi.com" class="footer__link">Mail</a>
+                    </li>
                 </ul>
+
             </div>
 
 
@@ -579,5 +622,13 @@
         if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
             return false;
         }
+    }
+    const nextSlide = (event) => {
+        const slider = event.parentNode.children[1]
+        slider.append(slider.children[0])
+    }
+    const prevSlide = (event) => {
+        const slider = event.parentNode.children[1]
+        slider.prepend(slider.children[slider.children.length - 1])
     }
 </script>

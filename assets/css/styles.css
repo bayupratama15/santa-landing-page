@@ -176,6 +176,75 @@ body.dark-theme {
 .section {
   padding: 4.5rem 0 1rem;
 }
+/* partner */
+.wrapper-2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+.slider {
+  height: 17rem;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.item .title {
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.item img {
+  height: 14rem;
+}
+
+.next,
+.prev {
+  font-family: monospace;
+  font-size: 5rem;
+  background: none;
+  border: 0px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: rgb(100,100,100, 0.5);
+}
+.prev{
+  transform: rotate(-180deg);
+}
+.next:hover{
+  text-shadow: 2px 2px 2px rgb(200,200,200);
+}
+.prev:hover{
+  text-shadow: 2px -2px 2px rgb(200,200,200);
+}
+
+.item {
+  flex: 1 0 25%;
+  min-height: 200px;
+  text-align: center;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .item {
+    flex: 1 0 33%;
+  }
+}
+@media (max-width: 768px) {
+  .item {
+    flex: 1 0 50%;
+  }
+}
+@media (max-width: 576px) {
+  .item {
+    flex: 1 0 100%;
+  }
+}
+
+
 .embed-container{
   /* center  */
   display: flex;
